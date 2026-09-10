@@ -4,6 +4,12 @@
   
 }
 
+.box{
+
+  flex-direction: column;
+  
+}
+
 .logo{
 
   text-align: center;
