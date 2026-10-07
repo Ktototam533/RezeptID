@@ -7,18 +7,16 @@
 
 </div>
 
-<div class = "kopfbereich"> <!--Links nach anderen Seiten-->
 
-<nav>
+<nav class ="suchfeld"> 
 
-	<a href = "index.html"> Startseite </a>
-	<a href = "rezepte.html"> Rezepte </a>
-	<a href = "favoriten.html"> Favoriten </a>
-	<a href = "einkaufsliste.html"> Einkaufsliste </a>
-	
+<h2>Suchfeld</h2>
+
+<input type ="search" class="form-control" placeholder="Search..."  >
+<input type="submit" value="Submit">
+
 </nav>
 
-</div>
 
 <div class = "konto" >👤</div> <!--Case für eigenen Konto-->
 </header> <!--Das Ende der Navigation-->
@@ -26,9 +24,12 @@
 <!-------------------------------------------------------------------------------------------------->
 
 <head> <!--Titel, CSS-Verbindung, -->
-<link rel="stylesheet" href="style_rezepte.css"> <!-------------------------------------------------------------------------------------------------------------------------------->
+<link rel="icon" type = "image/png" href="lo_go.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"><!--Fotter Navigation-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<title>RezeptID</title> <!-------------------------------------------------------------------------------------------------------------------------------->
 
-<title>RezeptID</title>
+
 
 </head>
 
@@ -65,15 +66,18 @@
 
 <footer>
 
+
 <div class = "kopfbereich"> <!--Links nach anderen Seiten-->
-<nav>
 
-	<a href = "index.html"> <button> Startseite </button></a>  
-	<a href = "rezepte.html"> <button> Rezepte </button></a>
-	<a href = "favoriten.html"> <button> Favoriten </button></a>
-	<a href = "einkaufsliste.html"><button> Einkaufsliste </button></a>
+<ul class ="py-3 my-4 list-unstyled d-flex gap-3">
 
-</nav>
+	<li class="nav-item"> <a href = "index.html" class="nav-link px-2 text-body-secondary">  Startseite</a> </li>  
+	<li class="nav-item"> <a href = "rezepte.html" class="nav-link px-2 text-body-secondary">  Rezepte </a> </li>
+	<li class="nav-item"> <a href = "favoriten.html" class="nav-link px-2 text-body-secondary">  Favoriten </a> </li>
+	<li class="nav-item"> <a href = "einkaufsliste.html" class="nav-link px-2 text-body-secondary"> Einkaufsliste </a> </li>
+
+</ul>
+
 </div>
 
 </footer>
