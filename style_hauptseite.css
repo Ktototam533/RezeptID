@@ -4,6 +4,11 @@
   
 }
 
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
 .box{
 
   flex-direction: column;
